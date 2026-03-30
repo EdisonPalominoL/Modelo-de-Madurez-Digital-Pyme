@@ -29,7 +29,7 @@ const nivelesMadurez = {
 const dimensiones = {
     gobierno: {
         nombre: 'Dirección y Gobernanza',
-        weight: 0.20, // 20% del puntaje total
+        weight: 0.25, // 25% del puntaje total
         questions: ['gobierno_1', 'gobierno_2', 'gobierno_3', 'gobierno_4']
     },
     infraestructura: {
@@ -39,7 +39,7 @@ const dimensiones = {
     },
     seguridad: {
         nombre: 'Seguridad de la Información',
-        weight: 0.20, // 20% del puntaje total
+        weight: 0.11, // 11% del puntaje total
         questions: ['seguridad_1', 'seguridad_2', 'seguridad_3', 'seguridad_4']
     },
     procesos: {
@@ -49,7 +49,7 @@ const dimensiones = {
     },
     cliente: {
         nombre: 'Experiencia del Cliente',
-        weight: 0.10, // 10% del puntaje total
+        weight: 0.12, // 12% del puntaje total
         questions: ['cliente_1', 'cliente_2', 'cliente_3', 'cliente_4']
     },
     datos: {
@@ -59,7 +59,7 @@ const dimensiones = {
     },
     cultura: {
         nombre: 'Personas y Cultura Digital',
-        weight: 0.10, // 10% del puntaje total
+        weight: 0.12, // 12% del puntaje total
         questions: ['cultura_1', 'cultura_2', 'cultura_3', 'cultura_4']
     }
 };
